@@ -1,0 +1,136 @@
+body {
+	font-family: 'Fira Sans', sans-serif !important;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 60em;
+	padding: 2.375em 1.25em;
+}
+.banner {
+	font-size: 2em;
+	color: white;
+	text-align: center;
+}
+.text {
+	margin-top: 0;
+	font-size: 1.5em;
+	text-align: center;
+	color: rgb(118, 118, 118);
+}
+.text a {
+	color: yellow;
+}
+.text a:hover {
+	text-decoration: none;
+	color: rgb(245, 245, 245);
+}
+
+.portfolio_examples {
+	border-top-style: double;
+	border-bottom-style: double;
+	padding: 1.4375em 0.625em 0 0.625em;
+	text-align: center;
+}
+.portfolio_examples a:hover{
+	text-decoration: none;
+}
+.portfolio_examples figure{
+-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.portfolio_examples figure:hover {
+	 -webkit-opacity: 0.5;
+	 -moz-opacity: 0.5;
+	 -o-opacity: 0.5;
+	 opacity: 0.5;
+	 filter: alpha(opacity=50);
+}
+.grid-unit {
+	margin-bottom: 1em;
+}
+img {
+	height: auto;
+	max-width: 100%;
+	margin-bottom: 0.9375em;
+}
+.project-name {
+	color: rgb(118, 118, 118);
+	font:normal 1em Georgia,"Times New Roman",Times,serif;
+	margin: 0;
+}
+.role {
+	font-size: 80%;
+	color: white;
+}
+
+h1.second-section {
+	font-size: 1.5em;
+	text-align: center;
+	color: rgb(118, 118, 118);
+}
+
+.portfolio_sport {
+	border-bottom-style: double; 
+}
+.portfolio_sport img {
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.portfolio_sport img:hover {
+	-webkit-transform: scale(2.5);
+	-moz-transform: scale(2.5);
+	-ms-transform: scale(2.5);
+	-o-transform: scale(2.5);
+	transform: scale(2.5);
+	position: absolute;
+	z-index: 1;
+}
+footer {
+	padding: 1.1875em 0.625em 0 0.625em;
+}
+footer>p {
+	vertical-align: top;
+	display: inline-block;
+	line-height: 1.4em;
+	font-size: 0.8125em;
+
+}
+
+.contact {
+	float: right;
+	text-align: right;
+}
+.contact a {
+	color: rgb(245, 245, 245);
+}
+.contact a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+@media screen and (max-width: 61.875em){
+	.contact {
+		float: none;
+		text-align: center;
+	}
+	footer>p {
+		display: block;
+		text-align: center;
+	}
+	.portfolio_sport img:hover {
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+	position: relative;
+}
+}
